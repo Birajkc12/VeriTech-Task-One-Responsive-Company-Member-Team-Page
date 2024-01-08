@@ -1,0 +1,107 @@
+/* Import Tailwind CSS */
+@import url("https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css");
+
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8f9fa;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+main .description {
+  font-weight: 600;
+  color: #333;
+}
+
+.team h2.ourteam {
+  font-size: 28px;
+  font-weight: bold;
+  color: #4a5568;
+}
+
+.team {
+  background-color: #ffffff;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+/* Additional styles for profile images */
+.team img {
+  border-radius: 50%;
+  border: 3px solid #ffffff;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Adjustments for headings */
+h2 {
+  font-size: 24px;
+}
+
+/* Adjustments for description */
+.description {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.team section {
+  padding: 20px;
+}
+
+/* Responsive design */
+@media (max-width: 1024px) {
+  body {
+    font-size: 14px;
+  }
+
+  .team {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+
+  .team {
+    padding: 15px;
+  }
+
+  .team img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  .team {
+    padding: 10px;
+  }
+}
+
+/* Padding for div classes */
+.div1,
+.div2,
+.div3,
+.div4,
+.div5,
+.div6,
+.div7 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
